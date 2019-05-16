@@ -6,7 +6,6 @@ body,ul,li,a{
 }
 .container{
     width: 100%;
-    background: #f7f7f7;
 }
 .logo{
     width: 1000px;
@@ -189,7 +188,7 @@ body,ul,li,a{
     height: 200px;
     line-height: 30px;
     background: #d4d4d4;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     text-align: center;
 }
 .container .footer p:nth-child(1){

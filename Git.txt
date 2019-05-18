@@ -1,0 +1,39 @@
+1. 源代码管理工具  git
+   客户端和服务端
+
+2. github.com
+
+3.安装Git
+
+应该做的第一件事是设置用户名和电子邮件地址。这很重要，因为每个Git提交都使用这些信息，
+并且它会不可避免地融入您开始创建的提交中：
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email "johndoe@example.com"
+
+4.  git 使用
+
+检查下自己之前有没有已经生成shh:   ls -al ~/.ssh
+
+生成 公钥
+ssh-keygen -t rsa -C "lixiaomi613@163.com"
+
+查公钥
+cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3YGaCFo+LtS266CZz41NKHdrwhYFAXUNkyPCsRdLyuErZ10FWj9JzujFF/9zYiM+GCTG23j3jfaAIOpB8Zn9GFHFY22Kiywul3q2nkUzdQ4jgYKqJWYAJUierZkxxbTr4zHxBitkzhy6VLVwgZNBc6JfQdkATPJfEb78f+9EF3diTlgkBAm3SFQwwyG8VHGa46p9ap3p5PmsNqGHe2QJrPBAHoleztfXJc0eZp3sYDPV22fW0olLJougUp0et8XwWxSmbUJ8QEMfTH9cG67aH+AzNJjDFonadDyid4/TvxJ+JqjapdVjcQjJpYBoH0ez3D8lwEPdJdUGVDgKgHPN1 741205360@qq.com
+
+克隆项目
+ git clone git@github.com:lihongmi/renzaorou.git
+
+正常开发
+git add .
+git commit -m 'update readme '
+git push origin master
+
+Git网页地址：
+https://li-ying-ying.github.io/ShiTuCaiFu/personalCenter.html
+
+
+是占空间的，会有高显示
+
+personalCenter   myInvestment    accountSecurity
